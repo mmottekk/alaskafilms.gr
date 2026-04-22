@@ -1,0 +1,7 @@
+content:
+  - name: Pages
+    label: My Website Pages
+    type: collection
+    path: /
+    extension: html
+    format: html
