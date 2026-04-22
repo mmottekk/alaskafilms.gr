@@ -1,0 +1,61 @@
+{
+  "hero_slides": [
+    {
+      "id": "pirateland",
+      "image": "images/slide-slide-hero-active.jpg",
+      "object_position": "center 20%",
+      "caption_title": "Pirateland",
+      "caption_by": "by Stavros Petropoulos",
+      "active": true
+    },
+    {
+      "id": "panellinion",
+      "image": "images/slide-slide-pan_chess.jpg",
+      "object_position": "center center",
+      "caption_title": "Panellinion",
+      "caption_by": "by Spyros Mantzavinos & Kostas Antarachas",
+      "active": false
+    },
+    {
+      "id": "microbiome",
+      "image": "images/slide-microbiome.jpg",
+      "object_position": "55% 88%",
+      "caption_title": "Microbiome",
+      "caption_by": "by Stavros Petropoulos",
+      "active": false
+    },
+    {
+      "id": "end-of-august",
+      "image": "images/slide-slide-eoa1.jpg",
+      "object_position": "center 25%",
+      "caption_title": "End of August",
+      "caption_by": "by Angelika Katsa",
+      "active": false
+    }
+  ],
+  "strip_cards": [
+    {
+      "title": "Pirateland",
+      "category": "FILMS",
+      "meta": "SHORT FILM · DARK COMEDY · 2025",
+      "image": "images/strip-pirateland.jpg",
+      "link": "films.html#pirateland"
+    },
+    {
+      "title": "Panellinion",
+      "category": "FILMS",
+      "meta": "FEATURE DOCUMENTARY · 2024",
+      "image": "images/strip-panellinion.jpg",
+      "link": "films.html#panellinion",
+      "narrow": true
+    },
+    {
+      "title": "Selected work",
+      "category": "COMMERCIAL · CULTURAL",
+      "meta": "2013 — PRESENT",
+      "image": "images/strip-commercial.jpg",
+      "link": "commercial-cultural.html",
+      "narrow": true
+    }
+  ]
+}
