@@ -1,0 +1,168 @@
+backend:
+  name: github
+  repo: mmottekk/alaskafilms.gr
+  branch: main
+
+media_folder: images
+public_folder: images
+
+collections:
+  # ─── FILMS ────────────────────────────────────────────────────────────────
+  - name: films_completed
+    label: "Films — Completed"
+    label_singular: "Completed Film"
+    folder: content
+    format: json
+    extension: json
+    create: false
+    files:
+      - name: films
+        label: All Films
+        file: content/films.json
+        fields:
+          - label: "Completed Films"
+            name: completed
+            widget: list
+            summary: "{{fields.title}} ({{fields.year}})"
+            fields:
+              - { label: ID, name: id, widget: string, hint: "Lowercase, hyphens only. e.g. pirateland" }
+              - { label: Title, name: title, widget: string }
+              - label: Type
+                name: type
+                widget: select
+                options:
+                  - Short fiction
+                  - Feature fiction
+                  - Short documentary
+                  - Documentary
+                  - Hybrid
+              - { label: "Length (minutes)", name: length, widget: string }
+              - { label: Countries, name: countries, widget: string, hint: "e.g. Greece / France" }
+              - { label: Year, name: year, widget: string }
+              - { label: Synopsis, name: synopsis, widget: text }
+              - label: Credits
+                name: credits
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - { label: Label, name: label, widget: string, hint: "e.g. Directed by" }
+                  - { label: Value, name: value, widget: string }
+              - label: Festivals
+                name: festivals
+                widget: list
+                field: { label: Festival entry, name: festival, widget: string }
+              - { label: "Vimeo ID", name: vimeo_id, widget: string, required: false, hint: "Numbers only from Vimeo URL" }
+              - { label: "YouTube ID", name: youtube_id, widget: string, required: false, hint: "ID from YouTube URL" }
+              - { label: "Trailer label", name: trailer_label, widget: string, default: "Watch trailer" }
+              - { label: "Image alt text", name: image_alt, widget: string }
+
+          - label: "In Production Films"
+            name: in_production
+            widget: list
+            summary: "{{fields.title}} (est. {{fields.est_delivery}})"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Type
+                name: type
+                widget: select
+                options:
+                  - Short fiction
+                  - Feature fiction
+                  - Short documentary
+                  - Documentary
+                  - Hybrid
+              - { label: "Length (minutes)", name: length, widget: string }
+              - { label: Countries, name: countries, widget: string }
+              - { label: "Est. Delivery Year", name: est_delivery, widget: string }
+              - { label: Synopsis, name: synopsis, widget: text }
+              - label: Credits
+                name: credits
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Value, name: value, widget: string }
+              - { label: "Image alt text", name: image_alt, widget: string }
+
+          - label: "In Development Films"
+            name: in_development
+            widget: list
+            summary: "{{fields.title}} (est. {{fields.est_delivery}})"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Type
+                name: type
+                widget: select
+                options:
+                  - Short fiction
+                  - Feature fiction
+                  - Short documentary
+                  - Documentary
+                  - Hybrid
+              - { label: Countries, name: countries, widget: string }
+              - { label: "Est. Delivery Year", name: est_delivery, widget: string }
+              - label: Credits
+                name: credits
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Value, name: value, widget: string }
+              - { label: "Image alt text", name: image_alt, widget: string }
+
+  # ─── COMMERCIAL ───────────────────────────────────────────────────────────
+  - name: commercial
+    label: "Commercial & Cultural"
+    folder: content
+    format: json
+    create: false
+    files:
+      - name: commercial
+        label: Videos
+        file: content/commercial.json
+        fields:
+          - label: Videos
+            name: videos
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: "Vimeo ID", name: vimeo_id, widget: string, required: false }
+              - { label: "YouTube ID", name: youtube_id, widget: string, required: false }
+
+  # ─── HOMEPAGE ─────────────────────────────────────────────────────────────
+  - name: homepage
+    label: Homepage
+    folder: content
+    format: json
+    create: false
+    files:
+      - name: homepage
+        label: Homepage Content
+        file: content/homepage.json
+        fields:
+          - label: "Hero Slides"
+            name: hero_slides
+            widget: list
+            summary: "{{fields.caption_title}}"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: "Caption title", name: caption_title, widget: string }
+              - { label: "Caption by line", name: caption_by, widget: string }
+              - { label: "Image path", name: image, widget: string }
+              - { label: "Object position", name: object_position, widget: string, default: "center center" }
+              - { label: "Active (first slide)", name: active, widget: boolean, default: false }
+
+          - label: "Strip Cards"
+            name: strip_cards
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Category, name: category, widget: string }
+              - { label: Meta, name: meta, widget: string }
+              - { label: "Image path", name: image, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Narrow, name: narrow, widget: boolean, default: false }
