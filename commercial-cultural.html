@@ -13,39 +13,6 @@
 .nav-home { display: none; }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
 .nav-toggle span { display: block; width: 22px; height: 1.5px; background: rgba(255,255,255,.7); }
-@media (max-width: 680px) {
-  .nav { padding: 12px 20px; flex-wrap: wrap; }
-  .nav-toggle { display: flex; }
-  .nav-links { display: none; flex-direction: column; gap: 0; width: 100%; border-top: 0.5px solid rgba(232,230,224,.08); padding-top: 8px; }
-  .nav-links.open { display: flex; }
-  .nav-links a { font-size: 18px; padding: 7px 0; border-bottom: none; border-bottom-color: transparent; color: rgba(255,255,255,.55); width: 100%; }
-  .nav-links a.active { color: rgba(255,255,255,.92); border-bottom: none; }
-  .nav-home { display: block; }
-  .footer { flex-direction: column; gap: 12px; padding: 20px; text-align: center; }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { background: #212124; color: #e8e6e0; font-family: system-ui, sans-serif; }
@@ -164,16 +131,22 @@ a { text-decoration: none; }
 
 
 
-}
+
 
 /* ── Navigation — Space Grotesk ── */
 
-
-
-
-
-
-
+@media (max-width: 680px) {
+  .nav { padding: 12px 20px; flex-wrap: wrap; }
+  .nav-toggle { display: flex; }
+  .nav-links { display: none; flex-direction: column; gap: 0; width: 100%; border-top: 0.5px solid rgba(232,230,224,.08); padding-top: 8px; }
+  .nav-links.open { display: flex; }
+  .nav-links a { font-size: 18px; padding: 7px 0; border-bottom: none; border-bottom-color: transparent; color: rgba(255,255,255,.55); width: 100%; }
+  .nav-links a.active { color: rgba(255,255,255,.92); border-bottom: none; }
+  .nav-home { display: block; }
+  .footer { flex-direction: column; gap: 12px; padding: 20px; text-align: center; }
+  /* FIX: 2-column grid instead of 3 on mobile */
+  .video-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style></head>
 <body>
 <nav class="nav">

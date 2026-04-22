@@ -13,38 +13,6 @@
 .nav-home { display: none; }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
 .nav-toggle span { display: block; width: 22px; height: 1.5px; background: rgba(255,255,255,.7); }
-@media (max-width: 680px) {
-  .nav { padding: 12px 20px; flex-wrap: wrap; }
-  .nav-toggle { display: flex; }
-  .nav-links { display: none; flex-direction: column; gap: 0; width: 100%; border-top: 0.5px solid rgba(232,230,224,.08); padding-top: 8px; }
-  .nav-links.open { display: flex; }
-  .nav-links a { font-size: 18px; padding: 7px 0; border-bottom: none; border-bottom-color: transparent; color: rgba(255,255,255,.55); width: 100%; }
-  .nav-links a.active { color: rgba(255,255,255,.92); border-bottom: none; }
-  .nav-home { display: block; }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { background: #212124; color: #e8e6e0; font-family: system-ui, sans-serif; }
@@ -61,16 +29,6 @@ a { text-decoration: none; }
 .footer-copy { font-size: 10px; color: rgba(232,230,224,.8); letter-spacing: .08em; }
 .footer-links { display: flex; gap: 20px; }
 .footer-links a { font-size: 10px; letter-spacing: .1em; color: rgba(232,230,224,.7); }
-
-
-
-  
-  
-  
-  
-  
-  .footer { flex-direction: column; gap: 12px; padding: 20px; text-align: center; }
-}
 
 .hero { position: relative; height: 460px; overflow: hidden; }
 .hero-img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; filter: brightness(.88) contrast(1.02); }
@@ -137,10 +95,6 @@ a { text-decoration: none; }
 
 
 
-}
-
-
-
 
 
 .slide, .slide img, .slide source { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0; transition: opacity 2.2s ease-in-out; }
@@ -198,16 +152,25 @@ picture.slide { display: block; }
 
 
 
-}
+
 
 /* ── Navigation — Space Grotesk ── */
 
-
-
-
-
-
-
+@media (max-width: 680px) {
+  .nav { padding: 12px 20px; flex-wrap: wrap; }
+  .nav-toggle { display: flex; }
+  .nav-links { display: none; flex-direction: column; gap: 0; width: 100%; border-top: 0.5px solid rgba(232,230,224,.08); padding-top: 8px; }
+  .nav-links.open { display: flex; }
+  .nav-links a { font-size: 18px; padding: 7px 0; border-bottom: none; border-bottom-color: transparent; color: rgba(255,255,255,.55); width: 100%; }
+  .nav-links a.active { color: rgba(255,255,255,.92); border-bottom: none; }
+  .nav-home { display: block; }
+  .footer { flex-direction: column; gap: 12px; padding: 20px; text-align: center; }
+  /* FIX: hero caption above showreel button */
+  .hero-captions { bottom: 76px; }
+  /* FIX: film strips stack vertically on mobile */
+  .film-strip { grid-template-columns: 1fr; height: auto; }
+  .film-strip .strip-card { height: 260px; }
+}
 </style></head>
 <body>
 <nav class="nav">
