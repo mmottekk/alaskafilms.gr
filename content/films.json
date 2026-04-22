@@ -1,179 +1,314 @@
 {
   "completed": [
     {
-      "id": "pirateland",
-      "title": "Pirateland",
-      "type": "Short fiction",
+      "image_alt": "Pirateland still",
       "length": "28",
-      "countries": "Greece / France / Norway",
-      "year": "2025",
+      "trailer_label": "Watch trailer",
       "synopsis": "As winter begins on an overly touristic Greek island in Crete, a struggling local family running a small bed & breakfast receive an unexpected visit from Norwegian tourists seeking the authentic pirate experience. The relationship between Manos, the Greek father, and Tassos, his son, is tested as their demands grow ever more challenging.",
+      "countries": "Greece / France / Norway",
+      "vimeo_id": "1017039501",
+      "title": "Pirateland",
       "credits": [
-        { "label": "Directed by", "value": "Stavros Petropoulos" },
-        { "label": "Written by", "value": "Yorgos Teltzidis" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos" },
-        { "label": "Co-produced by", "value": "Alaska Films (GR), Yukunkun Productions (FR), Ferdi Film (NOR), Onassis Culture (GR), GFC (GR)" },
-        { "label": "Supported by", "value": "ARTE France, Region of Creta, Indigo View" },
-        { "label": "Cinematography", "value": "Yorgos Koutsaliaris" },
-        { "label": "Edited by", "value": "Stamos Dimitropoulos" }
+        {
+          "label": "Directed by",
+          "value": "Stavros Petropoulos"
+        },
+        {
+          "label": "Written by",
+          "value": "Yorgos Teltzidis"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films (GR), Yukunkun Productions (FR), Ferdi Film (NOR), Onassis Culture (GR), GFC (GR)"
+        },
+        {
+          "label": "Supported by",
+          "value": "ARTE France, Region of Creta, Indigo View"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Yorgos Koutsaliaris"
+        },
+        {
+          "label": "Edited by",
+          "value": "Stamos Dimitropoulos"
+        }
       ],
+      "type": "Short fiction",
+      "id": "pirateland",
       "festivals": [
         "Clermont-Ferrand International Film Festival — International Competition — World Premiere",
         "Brussels ISFF — International Competition",
         "Tribeca Festival — North American Premiere"
       ],
-      "vimeo_id": "1017039501",
-      "trailer_label": "Watch trailer",
-      "image_alt": "Pirateland still"
+      "year": "2025"
     },
     {
-      "id": "panellinion",
-      "title": "Panellinion",
-      "type": "Documentary",
+      "image_alt": "Panellinion still",
       "length": "80",
-      "countries": "Greece",
-      "year": "2024",
+      "trailer_label": "Watch trailer",
       "synopsis": "Panellinion is an out-of-place-and-time chess coffeehouse in the centre of Athens — a refuge for people who suffocate in everyday life. Giannis, the owner, hates chess yet looks upon the regulars as his children: scientists, artists, retirees, workers who seek outlet in chess, make confessions, recall old stories of legendary eccentric customers.",
+      "countries": "Greece",
+      "vimeo_id": "917576717",
+      "title": "Panellinion",
       "credits": [
-        { "label": "Written & directed by", "value": "Kostas Antarachas & Spyros Mantzavinos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos" },
-        { "label": "Co-produced by", "value": "Alaska Films, ERT & 2|35" },
-        { "label": "Support", "value": "Greek Film Center" },
-        { "label": "Cinematography", "value": "Yorgos Koutsaliaris" },
-        { "label": "Edited by", "value": "Dimitris Polyzos" }
+        {
+          "label": "Written & directed by",
+          "value": "Kostas Antarachas & Spyros Mantzavinos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films, ERT & 2|35"
+        },
+        {
+          "label": "Support",
+          "value": "Greek Film Center"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Yorgos Koutsaliaris"
+        },
+        {
+          "label": "Edited by",
+          "value": "Dimitris Polyzos"
+        }
       ],
+      "type": "Documentary",
+      "id": "panellinion",
       "festivals": [
         "Thessaloniki International Documentary Festival — Best Newcomer Award, Best Greek Film Award, Youth Jury Special Prize",
         "Iris 2025 — Hellenic Film Academy Awards — Nominated for Best Documentary"
       ],
-      "vimeo_id": "917576717",
-      "trailer_label": "Watch trailer",
-      "image_alt": "Panellinion still"
+      "year": "2024"
     },
     {
-      "id": "end-of-august",
-      "title": "End of August",
-      "type": "Short fiction",
+      "image_alt": "End of August still",
       "length": "17",
-      "countries": "Greece / Cyprus",
-      "year": "2023",
-      "synopsis": "That summer, Amelia will discover her mother's secret love affair. Refusing to believe what she saw, she runs away from home with Epaminondas, her first love. They will live an adventure, testing themselves and everyone they meet, ending up at the end of the night as children again in the arms of their parents.",
-      "credits": [
-        { "label": "Written & directed by", "value": "Angelika Katsa" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos & Stavros Petropoulos" },
-        { "label": "Co-produced by", "value": "Alaska Films, Felony Film, Ready2Cast, Rentphotovideo, GFC & ERT" },
-        { "label": "Cinematography", "value": "Yorgos Koutsaliaris" },
-        { "label": "Edited by", "value": "Stamos Dimitropoulos" }
-      ],
-      "festivals": [],
-      "vimeo_id": "842153290",
       "trailer_label": "Watch trailer",
-      "image_alt": "End of August still"
+      "synopsis": "That summer, Amelia will discover her mother's secret love affair. Refusing to believe what she saw, she runs away from home with Epaminondas, her first love. They will live an adventure, testing themselves and everyone they meet, ending up at the end of the night as children again in the arms of their parents.",
+      "countries": "Greece / Cyprus",
+      "vimeo_id": "842153290",
+      "title": "End of August",
+      "credits": [
+        {
+          "label": "Written & directed by",
+          "value": "Angelika Katsa"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos & Stavros Petropoulos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films, Felony Film, Ready2Cast, Rentphotovideo, GFC & ERT"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Yorgos Koutsaliaris"
+        },
+        {
+          "label": "Edited by",
+          "value": "Stamos Dimitropoulos"
+        }
+      ],
+      "type": "Short fiction",
+      "id": "end-of-august",
+      "festivals": [],
+      "year": "2023"
     },
     {
-      "id": "microbiome",
-      "title": "Microbiome",
-      "type": "Short documentary",
+      "image_alt": "Microbiome still",
       "length": "26",
-      "countries": "Greece",
-      "year": "2021",
+      "trailer_label": "Watch trailer",
       "synopsis": "The limits of intrusion in the peaceful lives of the local folk on the island of Ikaria are tested as scientists quest to find the secret to long and healthy life. A clash of energies between locals and perplexed scientists — a comedic study in pacing and reframing a world view.",
+      "countries": "Greece",
+      "vimeo_id": "672509414",
+      "title": "Microbiome",
       "credits": [
-        { "label": "Written & directed by", "value": "Stavros Petropoulos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos & Stavros Petropoulos" },
-        { "label": "Co-produced by", "value": "Alaska Films & CLEO" },
-        { "label": "Cinematography", "value": "Yiannis Kanakis" },
-        { "label": "Edited by", "value": "Stamos Dimitropoulos" },
-        { "label": "Original music by", "value": "Dimitris Patsaros" }
+        {
+          "label": "Written & directed by",
+          "value": "Stavros Petropoulos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos & Stavros Petropoulos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films & CLEO"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Yiannis Kanakis"
+        },
+        {
+          "label": "Edited by",
+          "value": "Stamos Dimitropoulos"
+        },
+        {
+          "label": "Original music by",
+          "value": "Dimitris Patsaros"
+        }
       ],
+      "type": "Short documentary",
+      "id": "microbiome",
       "festivals": [
         "FeKK — Grand Prix",
         "CPH:DOX — International Premiere",
         "Sarajevo International Film Festival — International Competition"
       ],
-      "vimeo_id": "672509414",
-      "trailer_label": "Watch trailer",
-      "image_alt": "Microbiome still"
+      "year": "2021"
     },
     {
-      "id": "homes",
-      "title": "Homes",
-      "type": "Documentary",
+      "image_alt": "Homes still",
       "length": "35",
-      "countries": "Greece",
-      "year": "2019",
+      "trailer_label": "Watch trailer",
       "synopsis": "Ten site-specific shows and performances examine the traumatic experience of forceful displacement, the violent loss of one's home and the sense of belonging. The film follows artists through Athens and Piraeus creating notional shared spaces on the borderline between fiction and reality.",
-      "credits": [
-        { "label": "Written & directed by", "value": "Leonidas Konstantarakos & Stavros Petropoulos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos & Stavros Petropoulos" },
-        { "label": "Co-produced by", "value": "Alaska Films & Onassis Cultural Centre" },
-        { "label": "Cinematography", "value": "Iason Arvanitakis" },
-        { "label": "Edited by", "value": "Giorgos Zafeiris" }
-      ],
-      "festivals": [],
+      "countries": "Greece",
       "vimeo_id": "320155254",
-      "trailer_label": "Watch trailer",
-      "image_alt": "Homes still"
+      "title": "Homes",
+      "credits": [
+        {
+          "label": "Written & directed by",
+          "value": "Leonidas Konstantarakos & Stavros Petropoulos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos & Stavros Petropoulos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films & Onassis Cultural Centre"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Iason Arvanitakis"
+        },
+        {
+          "label": "Edited by",
+          "value": "Giorgos Zafeiris"
+        }
+      ],
+      "type": "Documentary",
+      "id": "homes",
+      "festivals": [],
+      "year": "2019"
     },
     {
-      "id": "x-apartments",
-      "title": "X Apartments",
-      "type": "Documentary",
+      "image_alt": "X Apartments still",
       "length": "52",
-      "countries": "Greece",
-      "year": "2018",
-      "synopsis": "Fifteen apartments, two routes in two forgotten neighbourhoods of Athens, two spectators. A documentary about a transmedial group performance and the questions it raises — searching for the boundaries between art and reality, private and public space, voyeurism and intimacy.",
-      "credits": [
-        { "label": "Written & directed by", "value": "Leonidas Konstantarakos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos & Stavros Petropoulos" },
-        { "label": "Co-produced by", "value": "Alaska Films & Onassis Cultural Centre" },
-        { "label": "Cinematography", "value": "Iason Arvanitakis" },
-        { "label": "Edited by", "value": "Giorgos Zafeiris" }
-      ],
-      "festivals": [],
-      "youtube_id": "oSB6bGEa-1M",
       "trailer_label": "Watch full film",
-      "image_alt": "X Apartments still"
+      "synopsis": "Fifteen apartments, two routes in two forgotten neighbourhoods of Athens, two spectators. A documentary about a transmedial group performance and the questions it raises — searching for the boundaries between art and reality, private and public space, voyeurism and intimacy.",
+      "countries": "Greece",
+      "youtube_id": "oSB6bGEa-1M",
+      "title": "X Apartments",
+      "credits": [
+        {
+          "label": "Written & directed by",
+          "value": "Leonidas Konstantarakos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos & Stavros Petropoulos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films & Onassis Cultural Centre"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Iason Arvanitakis"
+        },
+        {
+          "label": "Edited by",
+          "value": "Giorgos Zafeiris"
+        }
+      ],
+      "type": "Documentary",
+      "id": "x-apartments",
+      "festivals": [],
+      "year": "2018"
     },
     {
-      "id": "i-am-a-dancer",
-      "title": "I am a Dancer",
-      "type": "Documentary",
+      "image_alt": "I am a Dancer still",
       "length": "72",
-      "countries": "Greece",
-      "year": "2018",
-      "synopsis": "Four persons with different disabilities come in contact with contemporary dance in a series of workshops organised by the Onassis Cultural Centre. Under the two-year guidance of Greek choreographers, they experiment with movement, discover their potential and contribute to three pieces for the International Unlimited Access Dance Festival.",
-      "credits": [
-        { "label": "Written & directed by", "value": "Stavros Petropoulos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos & Stavros Petropoulos" },
-        { "label": "Co-produced by", "value": "Alaska Films & Onassis Cultural Centre" },
-        { "label": "Cinematography", "value": "Yiannis Kanakis" },
-        { "label": "Edited by", "value": "Giorgos Zafeiris" }
-      ],
-      "festivals": [],
-      "vimeo_id": "348669940",
       "trailer_label": "Watch trailer",
-      "image_alt": "I am a Dancer still"
+      "synopsis": "Four persons with different disabilities come in contact with contemporary dance in a series of workshops organised by the Onassis Cultural Centre. Under the two-year guidance of Greek choreographers, they experiment with movement, discover their potential and contribute to three pieces for the International Unlimited Access Dance Festival.",
+      "countries": "Greece",
+      "vimeo_id": "348669940",
+      "title": "I am a Dancer",
+      "credits": [
+        {
+          "label": "Written & directed by",
+          "value": "Stavros Petropoulos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos & Stavros Petropoulos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films & Onassis Cultural Centre"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Yiannis Kanakis"
+        },
+        {
+          "label": "Edited by",
+          "value": "Giorgos Zafeiris"
+        }
+      ],
+      "type": "Documentary",
+      "id": "i-am-a-dancer",
+      "festivals": [],
+      "year": "2018"
     }
   ],
   "in_production": [
     {
-      "id": "magnifier",
-      "title": "Magnifier",
-      "type": "Documentary",
+      "image_alt": "Magnifier still",
       "length": "80",
-      "countries": "Greece",
       "est_delivery": "2025",
       "synopsis": "Life with someone suffering from Alzheimer's disease resembles the slow-motion crumbling of a building. The sometimes momentary loss of one's face is stretched through time — a gradual denudation where it parts with levels of itself until there's only the core: a naked feeling without any memory. Thekla's documentary places this course in filmic time, having begun filming since the first diagnosis of her mother's disease.",
+      "countries": "Greece",
+      "title": "Magnifier",
       "credits": [
-        { "label": "Written & directed by", "value": "Thekla Malamou" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos & Thekla Malamou" },
-        { "label": "Production", "value": "Alaska Films" },
-        { "label": "Support", "value": "Greek Film Center" },
-        { "label": "Cinematography", "value": "Thekla Malamou" },
-        { "label": "Edited by", "value": "Ioanna Pogiantzi" }
+        {
+          "label": "Written & directed by",
+          "value": "Thekla Malamou"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos & Thekla Malamou"
+        },
+        {
+          "label": "Production",
+          "value": "Alaska Films"
+        },
+        {
+          "label": "Support",
+          "value": "Greek Film Center"
+        },
+        {
+          "label": "Cinematography",
+          "value": "Thekla Malamou"
+        },
+        {
+          "label": "Edited by",
+          "value": "Ioanna Pogiantzi"
+        }
       ],
-      "image_alt": "Magnifier still"
+      "type": "Documentary",
+      "id": "magnifier"
     }
   ],
   "in_development": [
@@ -181,13 +316,25 @@
       "id": "pirateland-feature",
       "title": "Pirateland (feature)",
       "type": "Fiction Feature",
-      "countries": "Greece",
+      "countries": "Greece / France / Sweden",
       "est_delivery": "2028",
       "credits": [
-        { "label": "Directed by", "value": "Stavros Petropoulos" },
-        { "label": "Written by", "value": "Stavros Petropoulos & George O'Neill-Zafeiropoulos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos" },
-        { "label": "Co-produced by", "value": "Alaska Films (GR), Yukunkun Production (FR), Grand Slam Film (SE)" }
+        {
+          "label": "Directed by",
+          "value": "Stavros Petropoulos"
+        },
+        {
+          "label": "Written by",
+          "value": "Stavros Petropoulos & George O'Neill-Zafeiropoulos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films (GR), Yukunkun Production (FR), Grand Slam Film (SE)"
+        }
       ],
       "image_alt": "Pirateland feature still"
     },
@@ -195,14 +342,29 @@
       "id": "cherrybrain",
       "title": "Cherrybrain",
       "type": "Fiction Feature",
-      "countries": "Greece",
+      "countries": "Greece / France",
       "est_delivery": "2027",
       "credits": [
-        { "label": "Directed by", "value": "Stergios Dinopoulos" },
-        { "label": "Written by", "value": "Stergios Dinopoulos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos, Stavros Petropoulos, Thanasis Michalopoulos, Lida Katsanouli" },
-        { "label": "Co-produced by", "value": "Alaska Films (GR), Stéphane Marchal (FR)" },
-        { "label": "Cinematography", "value": "George Diakos" }
+        {
+          "label": "Directed by",
+          "value": "Stergios Dinopoulos"
+        },
+        {
+          "label": "Written by",
+          "value": "Stergios Dinopoulos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos, Stavros Petropoulos, Thanasis Michalopoulos, Lida Katsanouli"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Alaska Films (GR), Stéphane Marchal (FR)"
+        },
+        {
+          "label": "Cinematography",
+          "value": "George Diakos"
+        }
       ],
       "image_alt": "Cherrybrain still"
     },
@@ -213,10 +375,22 @@
       "countries": "Greece",
       "est_delivery": "2027",
       "credits": [
-        { "label": "Directed by", "value": "Stergios Dinopoulos" },
-        { "label": "Written by", "value": "Stergios Dinopoulos" },
-        { "label": "Produced by", "value": "Leonidas Konstantarakos" },
-        { "label": "Produced by", "value": "Alaska Films (GR)" }
+        {
+          "label": "Directed by",
+          "value": "Stergios Dinopoulos"
+        },
+        {
+          "label": "Written by",
+          "value": "Stergios Dinopoulos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Leonidas Konstantarakos"
+        },
+        {
+          "label": "Produced by",
+          "value": "Alaska Films (GR)"
+        }
       ],
       "image_alt": "UFO still"
     }
