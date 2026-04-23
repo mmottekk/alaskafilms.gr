@@ -1,0 +1,9 @@
+# Redirects from old Squarespace site to new site
+# Format: old-path  new-path  status-code
+
+/home                 /                      301
+/the-team             /about                 301
+/about                /about                 301
+/contact              /contact               301
+/films                /films                 301
+/commercial-cultural  /commercial-cultural   301
