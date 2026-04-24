@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-  <title>Alaska Films — Greek Film Production Company, Athens</title>
-  <meta name="description" content="Alaska Films is an award-winning Greek film production company based in Athens. Co-productions, service production, cash rebate Greece. Films at Clermont-Ferrand, Tribeca and Thessaloniki.">
+  <title>Alaska Films — Film Production Company in Greece | Athens</title>
+  <meta name="description" content="Alaska Films is a film production company in Greece, based in Athens. Greek film production, co-productions, service production and 40% cash rebate Greece. Films at Clermont-Ferrand, Tribeca and Thessaloniki.">
   <link rel="canonical" href="https://alaskafilms.gr/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Alaska Films">
   <meta property="og:url" content="https://alaskafilms.gr/">
-  <meta property="og:title" content="Alaska Films — Greek Film Production Company">
-  <meta property="og:description" content="Award-winning Greek film production company. Co-productions, service production and cash rebate in Greece. Films at Clermont-Ferrand, Tribeca, Thessaloniki.">
+  <meta property="og:title" content="Alaska Films — Film Production Company in Greece">
+  <meta property="og:description" content="Film production company in Greece, based in Athens. Greek co-productions, service production and cash rebate Greece. Films at Clermont-Ferrand, Tribeca, Thessaloniki.">
   <meta property="og:image" content="https://alaskafilms.gr/images/slide-slide-hero-active.jpg">
   <meta property="og:image:secure_url" content="https://alaskafilms.gr/images/slide-slide-hero-active.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Alaska Films — Greek Film Production Company">
+  <meta property="og:image:alt" content="Alaska Films — Film Production Company in Greece">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Alaska Films — Greek Film Production Company">
-  <meta name="twitter:description" content="Award-winning Greek film production company. Co-productions, service production and cash rebate in Greece.">
+  <meta name="twitter:title" content="Alaska Films — Film Production Company in Greece">
+  <meta name="twitter:description" content="Film production company in Greece, based in Athens. Greek co-productions, service production, cash rebate.">
   <meta name="twitter:image" content="https://alaskafilms.gr/images/slide-slide-hero-active.jpg">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Alaska Films">
@@ -41,6 +41,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { background: #212124; color: #e8e6e0; font-family: system-ui, sans-serif; }
 a { text-decoration: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
 
 
@@ -80,7 +81,7 @@ a { text-decoration: none; }
 .about-headline { display: none; }
 .about-headline em { font-style: italic; color: #8285d7; font-weight: 400; }
 .about-right { display: contents; }
-.about-body { font-size: 14px; color: rgba(232,230,224,.8); line-height: 1.85; max-width: 680px; }
+.about-body { font-size: 14px; color: rgba(232,230,224,.8); line-height: 1.85; max-width: 920px; }
 .about-cta { font-size: 10px; letter-spacing: .14em; color: #9b9dde; }
 
 
@@ -178,8 +179,6 @@ picture.slide { display: block; }
 
 
 
-/* ── Navigation — Space Grotesk ── */
-
 @media (max-width: 680px) {
   .nav { padding: 12px 20px; flex-wrap: wrap; }
   .nav-toggle { display: flex; }
@@ -204,25 +203,40 @@ picture.slide { display: block; }
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "LocalBusiness", "ProductionCompany"],
     "name": "Alaska Films",
+    "alternateName": "Alaska Films Greece",
     "url": "https://alaskafilms.gr/",
+    "logo": "https://alaskafilms.gr/images/logo.png",
+    "image": "https://alaskafilms.gr/images/slide-slide-hero-active.jpg",
     "foundingDate": "2013",
-    "description": "Award-winning Greek film production company based in Athens, specialising in fiction, documentary, co-production, service production and cash rebate in Greece.",
+    "description": "Alaska Films is a film production company in Greece, based in Athens. The company produces fiction, documentary and commercial film, and provides co-production, service production and cash rebate services for international partners shooting in Greece.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Athens",
+      "addressRegion": "Attica",
       "addressCountry": "GR"
     },
+    "areaServed": [
+      { "@type": "Country", "name": "Greece" },
+      { "@type": "Place", "name": "Europe" }
+    ],
     "knowsAbout": [
-      "Film Production",
+      "Film Production in Greece",
+      "Greek Film Production",
       "Documentary Film",
       "Fiction Film",
       "Co-production",
-      "Service Production",
+      "Minority Co-production",
+      "Service Production Greece",
       "Cash Rebate Greece",
-      "Minority Co-production"
+      "EKOME Cash Rebate"
     ],
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "GEMI",
+      "value": "150871401000"
+    },
     "award": [
       "ARTWORKS 2022",
       "Stavros Niarchos Foundation Artist Fellowship"
@@ -234,8 +248,51 @@ picture.slide { display: block; }
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Movie",
+        "name": "Pirateland",
+        "datePublished": "2025",
+        "genre": ["Short Film", "Dark Comedy"],
+        "director": { "@type": "Person", "name": "Stavros Petropoulos" },
+        "productionCompany": { "@type": "Organization", "name": "Alaska Films" },
+        "countryOfOrigin": { "@type": "Country", "name": "Greece" }
+      },
+      {
+        "@type": "Movie",
+        "name": "Panellinion",
+        "datePublished": "2024",
+        "genre": ["Feature Documentary"],
+        "director": [
+          { "@type": "Person", "name": "Spyros Mantzavinos" },
+          { "@type": "Person", "name": "Kostas Antarachas" }
+        ],
+        "productionCompany": { "@type": "Organization", "name": "Alaska Films" },
+        "countryOfOrigin": { "@type": "Country", "name": "Greece" }
+      },
+      {
+        "@type": "Movie",
+        "name": "Microbiome",
+        "director": { "@type": "Person", "name": "Stavros Petropoulos" },
+        "productionCompany": { "@type": "Organization", "name": "Alaska Films" },
+        "countryOfOrigin": { "@type": "Country", "name": "Greece" }
+      },
+      {
+        "@type": "Movie",
+        "name": "End of August",
+        "director": { "@type": "Person", "name": "Angelika Katsa" },
+        "productionCompany": { "@type": "Organization", "name": "Alaska Films" },
+        "countryOfOrigin": { "@type": "Country", "name": "Greece" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
+<h1 class="sr-only">Alaska Films — Film Production Company in Greece, based in Athens</h1>
 <nav class="nav">
   <div class="nav-logo"><a href="index.html" style="display:block;line-height:0;"><img src="images/logo.png" alt="Alaska Films" style="height:40px;width:auto;display:block;"/></a></div>
   <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -301,7 +358,7 @@ picture.slide { display: block; }
     <div class="about-headline">Films that <em>move</em></div>
   </div>
   <div class="about-right">
-    <p class="about-body">Alaska Films is a creative production company based in Athens, working across fiction, documentary and commercial film — building layered stories that respect, entertain and move their audiences.</p>
+    <p class="about-body">Alaska Films is a film production company in Greece, based in Athens and founded in 2013. We work across fiction, documentary and commercial film — producing original Greek projects and partnering with international producers as a co-production and service production company in Greece, including access to the EKOME cash rebate. Recent productions include <em>Pirateland</em> (2025), <em>Panellinion</em> (2024), <em>Microbiome</em> and <em>End of August</em>, with festival screenings at Clermont-Ferrand, Sarajevo, Tribeca, CPH:DOX, IndyShorts and the Thessaloniki International Film Festival.</p>
     <a href="about.html" class="about-cta" style="text-decoration:none;">about us →</a>
   </div>
 </div>
@@ -311,7 +368,6 @@ picture.slide { display: block; }
   <span class="footer-reg">Αρ. Γ.Ε.ΜΗ: 150871401000</span>
   <div class="footer-links"><a href="https://vimeo.com/alaskafilms" target="_blank">Vimeo</a><a href="https://www.instagram.com/alaskafilms.gr/" target="_blank">Instagram</a><a href="https://www.linkedin.com/company/alaska-films/" target="_blank">LinkedIn</a></div>
 </div>
-<div id="showreel-player" style="display:none;"></div>
 <script>
 function openShowreel(){
   document.getElementById('showreel-player').style.display='block';
