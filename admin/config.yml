@@ -22,6 +22,7 @@ collections:
             fields:
               - { label: ID, name: id, widget: string }
               - { label: Title, name: title, widget: string }
+              - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: Type, name: type, widget: string, hint: "e.g. Short fiction, Documentary" }
               - { label: "Length (minutes)", name: length, widget: string }
               - { label: Countries, name: countries, widget: string }
@@ -49,6 +50,7 @@ collections:
             fields:
               - { label: ID, name: id, widget: string }
               - { label: Title, name: title, widget: string }
+              - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: Type, name: type, widget: string }
               - { label: "Length (minutes)", name: length, widget: string }
               - { label: Countries, name: countries, widget: string }
@@ -69,6 +71,7 @@ collections:
             fields:
               - { label: ID, name: id, widget: string }
               - { label: Title, name: title, widget: string }
+              - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: Type, name: type, widget: string }
               - { label: Countries, name: countries, widget: string }
               - { label: "Est. Delivery", name: est_delivery, widget: string }
@@ -112,7 +115,7 @@ collections:
               - { label: ID, name: id, widget: string }
               - { label: "Film title", name: caption_title, widget: string }
               - { label: "By line", name: caption_by, widget: string }
-              - { label: "Image path", name: image, widget: string }
+              - { label: "Image path", name: image, widget: image, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: "Object position", name: object_position, widget: string, default: "center center" }
               - { label: "Active (first slide only)", name: active, widget: boolean, default: false }
           - label: "Strip Cards"
@@ -123,6 +126,6 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Category, name: category, widget: string }
               - { label: Meta, name: meta, widget: string }
-              - { label: "Image path", name: image, widget: string }
+              - { label: "Image path", name: image, widget: image, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: Link, name: link, widget: string }
               - { label: Narrow, name: narrow, widget: boolean, default: false }
