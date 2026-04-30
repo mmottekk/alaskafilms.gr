@@ -306,9 +306,11 @@ fetch('/content/films.json?v=' + Date.now())
   .then(function(data) {
     var imgMap = loadImages();
 
-    // Attach image sources to film objects
+    // Attach image sources to film objects.
+    // Prefer the `image` field set via the CMS (new way: drag-and-drop upload).
+    // Fall back to the legacy IMAGE_MAP keyed by `image_alt` for older entries.
     function attachImg(film) {
-      film._imgSrc = imgMap[film.image_alt] || '';
+      film._imgSrc = film.image || imgMap[film.image_alt] || '';
       return film;
     }
 
