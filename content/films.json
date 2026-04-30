@@ -313,7 +313,8 @@
       ],
       "type": "Fiction feature",
       "id": "myth",
-      "image": "images/myth-still2.jpg"
+      "image": "images/myth-still2.jpg",
+      "status_qualifier": "Minority co-production"
     },
     {
       "image_alt": "Magnifier still",
