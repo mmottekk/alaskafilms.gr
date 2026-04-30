@@ -275,6 +275,47 @@
   ],
   "in_production": [
     {
+      "image_alt": "Soldier in the midst of fog, still from Myth of a Real Man.",
+      "length": "100",
+      "est_delivery": "2027",
+      "synopsis": "Set during the 1999 NATO bombing of Yugoslavia, the film follows Vasiliye and Katarina Ostrogorsky, a couple torn between war and the hope of emigrating to Canada, as Vasiliye is pulled into military service despite opposing the regime and Katarina struggles to secure visas to save their family; amid darkly comic glimpses of civilian life under air raids, their young son secretly discovers the long-awaited documents, while Vasiliye becomes involved in a deceptive military scheme that ultimately places their hometown in danger, leading to a tragic climax in which he returns to find it destroyed, left only with the haunting hope that his family escaped to a better life.",
+      "countries": "Serbia / Greece / Canada / Czech Republic",
+      "title": "Myth of a Real Man",
+      "credits": [
+        {
+          "label": "Directed by",
+          "value": "Milica Lee Filipovski"
+        },
+        {
+          "label": "Written by",
+          "value": "Milica Lee Filipovski"
+        },
+        {
+          "label": "Producers",
+          "value": "Nataša Damnjanović, Vladimir Vidić, Adi Dizdarević"
+        },
+        {
+          "label": "Co-Producer",
+          "value": "Leonidas Konstantarakos"
+        },
+        {
+          "label": "Co-produced by",
+          "value": "Dart Film (SRB), Alaska Films (GR), Analog Vision (CZ), Karma Film (CA) "
+        },
+        {
+          "label": "Cinematography",
+          "value": "Nikolay Michaylov"
+        },
+        {
+          "label": "Edited by",
+          "value": "Stamos Dimitropoulos"
+        }
+      ],
+      "type": "Feature",
+      "id": "myth",
+      "image": "images/myth-still2.jpg"
+    },
+    {
       "image_alt": "Magnifier still",
       "length": "80",
       "est_delivery": "2026",
