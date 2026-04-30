@@ -22,7 +22,6 @@ collections:
             fields:
               - { label: ID, name: id, widget: string }
               - { label: Title, name: title, widget: string }
-              - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: Type, name: type, widget: string, hint: "e.g. Short fiction, Documentary" }
               - { label: "Length (minutes)", name: length, widget: string }
               - { label: Countries, name: countries, widget: string }
@@ -42,7 +41,7 @@ collections:
               - { label: "Vimeo ID", name: vimeo_id, widget: string, required: false }
               - { label: "YouTube ID", name: youtube_id, widget: string, required: false }
               - { label: "Trailer label", name: trailer_label, widget: string, default: "Watch trailer" }
-              - { label: "Image alt text", name: image_alt, widget: string }
+              - { label: "Image description (for SEO and accessibility)", name: image_alt, widget: string, hint: "Brief description of what is shown in the image. Used by screen readers for blind users and by search engines to understand the image. Example: Two pirates on a boat at sunset, still from Pirateland." }
           - label: "In Production Films"
             name: in_production
             widget: list
@@ -50,7 +49,6 @@ collections:
             fields:
               - { label: ID, name: id, widget: string }
               - { label: Title, name: title, widget: string }
-              - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: Type, name: type, widget: string }
               - { label: "Length (minutes)", name: length, widget: string }
               - { label: Countries, name: countries, widget: string }
@@ -63,7 +61,7 @@ collections:
                 fields:
                   - { label: Label, name: label, widget: string }
                   - { label: Value, name: value, widget: string }
-              - { label: "Image alt text", name: image_alt, widget: string }
+              - { label: "Image description (for SEO and accessibility)", name: image_alt, widget: string, hint: "Brief description of what is shown in the image. Used by screen readers for blind users and by search engines to understand the image. Example: Two pirates on a boat at sunset, still from Pirateland." }
           - label: "In Development Films"
             name: in_development
             widget: list
@@ -71,7 +69,6 @@ collections:
             fields:
               - { label: ID, name: id, widget: string }
               - { label: Title, name: title, widget: string }
-              - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
               - { label: Type, name: type, widget: string }
               - { label: Countries, name: countries, widget: string }
               - { label: "Est. Delivery", name: est_delivery, widget: string }
@@ -82,7 +79,7 @@ collections:
                 fields:
                   - { label: Label, name: label, widget: string }
                   - { label: Value, name: value, widget: string }
-              - { label: "Image alt text", name: image_alt, widget: string }
+              - { label: "Image description (for SEO and accessibility)", name: image_alt, widget: string, hint: "Brief description of what is shown in the image. Used by screen readers for blind users and by search engines to understand the image. Example: Two pirates on a boat at sunset, still from Pirateland." }
 
   - name: commercial
     label: "Commercial & Cultural"
@@ -115,7 +112,7 @@ collections:
               - { label: ID, name: id, widget: string }
               - { label: "Film title", name: caption_title, widget: string }
               - { label: "By line", name: caption_by, widget: string }
-              - { label: "Image path", name: image, widget: image, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
+              - { label: "Image path", name: image, widget: string }
               - { label: "Object position", name: object_position, widget: string, default: "center center" }
               - { label: "Active (first slide only)", name: active, widget: boolean, default: false }
           - label: "Strip Cards"
@@ -126,6 +123,6 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Category, name: category, widget: string }
               - { label: Meta, name: meta, widget: string }
-              - { label: "Image path", name: image, widget: image, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
+              - { label: "Image path", name: image, widget: string }
               - { label: Link, name: link, widget: string }
               - { label: Narrow, name: narrow, widget: boolean, default: false }
