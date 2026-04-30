@@ -188,12 +188,17 @@ html { scroll-behavior: smooth; }
 var videoCounter = 0;
 
 function metaLine(film, tab) {
+  // Optional qualifier (e.g. "Minority co-production") — inserted before the status.
+  var qual = film.status_qualifier ? film.status_qualifier + " \u00b7 " : "";
+  var qualNbsp = film.status_qualifier ? film.status_qualifier + " &nbsp;\u00b7&nbsp; " : "";
+
   if (tab === 'completed') {
-    return film.length + "\u2019 \u00b7 " + film.type + " \u00b7 " + film.countries + " \u00b7 " + film.year;
+    // Completed films don't have a status — qualifier sits before the year if present.
+    return film.length + "\u2019 \u00b7 " + film.type + " \u00b7 " + film.countries + " \u00b7 " + qual + film.year;
   } else if (tab === 'production') {
-    return film.length + "\u2019 \u00b7 " + film.type + " \u00b7 " + film.countries + " \u00b7 In production \u00b7 Est. delivery " + film.est_delivery;
+    return film.length + "\u2019 \u00b7 " + film.type + " \u00b7 " + film.countries + " \u00b7 " + qual + "In production \u00b7 Est. delivery " + film.est_delivery;
   } else {
-    return film.type + " &nbsp;\u00b7&nbsp; " + film.countries + " &nbsp;\u00b7&nbsp; In Production &nbsp;\u00b7&nbsp; Est. delivery " + film.est_delivery;
+    return film.type + " &nbsp;\u00b7&nbsp; " + film.countries + " &nbsp;\u00b7&nbsp; " + qualNbsp + "In development &nbsp;\u00b7&nbsp; Est. delivery " + film.est_delivery;
   }
 }
 
