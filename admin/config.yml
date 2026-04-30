@@ -20,68 +20,68 @@ collections:
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { label: ID, name: id, widget: string }
+              - { label: ID, name: id, widget: string, hint: "Short URL-friendly identifier, lowercase with no spaces. Example: pirateland. Used in links and must stay unique across all films." }
               - { label: Title, name: title, widget: string }
               - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
-              - { label: Type, name: type, widget: string, hint: "e.g. Short fiction, Documentary" }
-              - { label: "Length (minutes)", name: length, widget: string }
-              - { label: Countries, name: countries, widget: string }
-              - { label: Year, name: year, widget: string }
+              - { label: Type, name: type, widget: string, hint: "e.g. Short fiction, Documentary, Feature documentary" }
+              - { label: "Length (minutes)", name: length, widget: string, hint: "Just the number. Example: 92" }
+              - { label: Countries, name: countries, widget: string, hint: "Forward-slash separated list. Example: Greece / France / Norway" }
+              - { label: Year, name: year, widget: string, hint: "4-digit year of release. Example: 2024" }
               - { label: Synopsis, name: synopsis, widget: text }
               - label: Credits
                 name: credits
                 widget: list
                 summary: "{{fields.label}}"
                 fields:
-                  - { label: Label, name: label, widget: string }
-                  - { label: Value, name: value, widget: string }
+                  - { label: Label, name: label, widget: string, hint: "Role name. Example: Director, Producer, Cinematographer" }
+                  - { label: Value, name: value, widget: string, hint: "Person's name. Example: Stavros Petropoulos" }
               - label: Festivals
                 name: festivals
                 widget: list
-                field: { label: Entry, name: festival, widget: string }
-              - { label: "Vimeo ID", name: vimeo_id, widget: string, required: false }
-              - { label: "YouTube ID", name: youtube_id, widget: string, required: false }
-              - { label: "Trailer label", name: trailer_label, widget: string, default: "Watch trailer" }
+                field: { label: Entry, name: festival, widget: string, hint: "One festival per entry. Include year and any award. Example: Clermont-Ferrand 2025 — Selection" }
+              - { label: "Vimeo ID", name: vimeo_id, widget: string, required: false, hint: "Just the numeric ID from the Vimeo URL. Example: for vimeo.com/871492315 enter 871492315" }
+              - { label: "YouTube ID", name: youtube_id, widget: string, required: false, hint: "Just the ID from the YouTube URL. Example: for youtube.com/watch?v=dQw4w9WgXcQ enter dQw4w9WgXcQ" }
+              - { label: "Trailer label", name: trailer_label, widget: string, default: "Watch trailer", hint: "Text shown on the trailer button. Default is \"Watch trailer\"." }
               - { label: "Image description (for SEO and accessibility)", name: image_alt, widget: string, hint: "Brief description of what is shown in the image. Used by screen readers for blind users and by search engines to understand the image. Example: Two pirates on a boat at sunset, still from Pirateland." }
           - label: "In Production Films"
             name: in_production
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { label: ID, name: id, widget: string }
+              - { label: ID, name: id, widget: string, hint: "Short URL-friendly identifier, lowercase with no spaces. Example: pirateland. Used in links and must stay unique across all films." }
               - { label: Title, name: title, widget: string }
               - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
-              - { label: Type, name: type, widget: string }
-              - { label: "Length (minutes)", name: length, widget: string }
-              - { label: Countries, name: countries, widget: string }
-              - { label: "Est. Delivery", name: est_delivery, widget: string }
+              - { label: Type, name: type, widget: string, hint: "e.g. Short fiction, Documentary, Feature documentary" }
+              - { label: "Length (minutes)", name: length, widget: string, hint: "Just the number. Example: 92" }
+              - { label: Countries, name: countries, widget: string, hint: "Forward-slash separated list. Example: Greece / France / Norway" }
+              - { label: "Est. Delivery", name: est_delivery, widget: string, hint: "When the film is expected to be ready. Example: 2025 or Spring 2026" }
               - { label: Synopsis, name: synopsis, widget: text }
               - label: Credits
                 name: credits
                 widget: list
                 summary: "{{fields.label}}"
                 fields:
-                  - { label: Label, name: label, widget: string }
-                  - { label: Value, name: value, widget: string }
+                  - { label: Label, name: label, widget: string, hint: "Role name. Example: Director, Producer, Cinematographer" }
+                  - { label: Value, name: value, widget: string, hint: "Person's name. Example: Stavros Petropoulos" }
               - { label: "Image description (for SEO and accessibility)", name: image_alt, widget: string, hint: "Brief description of what is shown in the image. Used by screen readers for blind users and by search engines to understand the image. Example: Two pirates on a boat at sunset, still from Pirateland." }
           - label: "In Development Films"
             name: in_development
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { label: ID, name: id, widget: string }
+              - { label: ID, name: id, widget: string, hint: "Short URL-friendly identifier, lowercase with no spaces. Example: pirateland. Used in links and must stay unique across all films." }
               - { label: Title, name: title, widget: string }
               - { label: "Film still / poster", name: image, widget: image, required: false, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
-              - { label: Type, name: type, widget: string }
-              - { label: Countries, name: countries, widget: string }
-              - { label: "Est. Delivery", name: est_delivery, widget: string }
+              - { label: Type, name: type, widget: string, hint: "e.g. Short fiction, Documentary, Feature documentary" }
+              - { label: Countries, name: countries, widget: string, hint: "Forward-slash separated list. Example: Greece / France / Norway" }
+              - { label: "Est. Delivery", name: est_delivery, widget: string, hint: "When the film is expected to be ready. Example: 2025 or Spring 2026" }
               - label: Credits
                 name: credits
                 widget: list
                 summary: "{{fields.label}}"
                 fields:
-                  - { label: Label, name: label, widget: string }
-                  - { label: Value, name: value, widget: string }
+                  - { label: Label, name: label, widget: string, hint: "Role name. Example: Director, Producer, Cinematographer" }
+                  - { label: Value, name: value, widget: string, hint: "Person's name. Example: Stavros Petropoulos" }
               - { label: "Image description (for SEO and accessibility)", name: image_alt, widget: string, hint: "Brief description of what is shown in the image. Used by screen readers for blind users and by search engines to understand the image. Example: Two pirates on a boat at sunset, still from Pirateland." }
 
   - name: commercial
@@ -97,8 +97,8 @@ collections:
             summary: "{{fields.title}}"
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: "Vimeo ID", name: vimeo_id, widget: string, required: false }
-              - { label: "YouTube ID", name: youtube_id, widget: string, required: false }
+              - { label: "Vimeo ID", name: vimeo_id, widget: string, required: false, hint: "Just the numeric ID from the Vimeo URL. Example: for vimeo.com/871492315 enter 871492315" }
+              - { label: "YouTube ID", name: youtube_id, widget: string, required: false, hint: "Just the ID from the YouTube URL. Example: for youtube.com/watch?v=dQw4w9WgXcQ enter dQw4w9WgXcQ" }
 
   - name: homepage
     label: Homepage
@@ -112,20 +112,20 @@ collections:
             widget: list
             summary: "{{fields.caption_title}}"
             fields:
-              - { label: ID, name: id, widget: string }
+              - { label: ID, name: id, widget: string, hint: "Short identifier for this slide, lowercase with no spaces. Used internally as a CSS class. Example: slide-pirateland" }
               - { label: "Film title", name: caption_title, widget: string }
               - { label: "By line", name: caption_by, widget: string }
               - { label: "Image path", name: image, widget: image, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
-              - { label: "Object position", name: object_position, widget: string, default: "center center" }
-              - { label: "Active (first slide only)", name: active, widget: boolean, default: false }
+              - { label: "Object position", name: object_position, widget: string, default: "center center", hint: "CSS object-position value controlling how the image is cropped. Default \"center center\" works for most. Other examples: \"center 20%\" (shows more of the top), \"center 70%\" (shows more of the bottom)." }
+              - { label: "Active (first slide only)", name: active, widget: boolean, default: false, hint: "Check this only on the slide you want to appear first when the page loads. Only one slide should have this checked." }
           - label: "Strip Cards"
             name: strip_cards
             widget: list
             summary: "{{fields.title}}"
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Category, name: category, widget: string }
-              - { label: Meta, name: meta, widget: string }
+              - { label: Category, name: category, widget: string, hint: "Section label shown above the title. Example: FILMS or COMMERCIAL" }
+              - { label: Meta, name: meta, widget: string, hint: "Small text shown alongside the title. Example: 2024 — Documentary" }
               - { label: "Image path", name: image, widget: image, hint: "Drag and drop, or click to upload. Goes into /images/ automatically." }
-              - { label: Link, name: link, widget: string }
-              - { label: Narrow, name: narrow, widget: boolean, default: false }
+              - { label: Link, name: link, widget: string, hint: "Where the card links to. Example: films.html#pirateland or commercial-cultural.html" }
+              - { label: Narrow, name: narrow, widget: boolean, default: false, hint: "Check this if the card should display in a narrower column than the others." }
