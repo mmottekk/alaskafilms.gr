@@ -440,7 +440,7 @@
       "id": "bodies-unfolding",
       "title": "Bodies Unfolding",
       "image": "images/valasia_bodies-unfolding.png",
-      "type": "Documentary",
+      "type": "Feature Documentary",
       "countries": "Greece",
       "est_delivery": "2028",
       "credits": [
@@ -458,7 +458,7 @@
         },
         {
           "label": "Produced by",
-          "value": "Alaska Films"
+          "value": "Alaska Films (GR)"
         }
       ],
       "image_alt": "Collage of Valasia Simeon the main character of the film"
